@@ -1,4 +1,8 @@
-# Virtual Machine
+# Getting Started
+
+General topics and info about hacking.
+
+## Operating Systams and Virtual Machines
 
 * Operating System (OS)
   * Mac OS X
@@ -34,6 +38,21 @@
   * Hyper V
   * Vmware Player
   * qemu
+
+### Containers
+
+![Containers Diagram](./images/containers.jpeg)
+
+### Virtual Machines
+
+![Virtual Machines Diagram](./images/virtual-machines.jpeg)
+
+### Private vs Public Networks
+
+![Private vs Public Networks Diagram](./images/private-vs-public-networks.jpeg)
+
+## Types of Hacking
+
 * Penetration Testing (Pen Testing)
   * Red Team
     * Offensive Security
