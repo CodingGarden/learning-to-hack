@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XSS Vulnerable</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body class="container">
+  <div id="example">
+    Enter your search term:
+    <form>
+      <input type="text" name="search">
+    </form>
+  </div>
+  <script src="https://unpkg.com/dompurify@3.0.8/dist/purify.js"></script>
+  <script src="app.js"></script>
+  <script src="//127.0.0.1:8087/alert.js"></script>
+</body>
+</html>
